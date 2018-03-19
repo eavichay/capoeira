@@ -1,0 +1,45 @@
+{
+  "name": "capoeira",
+  "version": "0.0.1",
+  "description": "A Modern Front-End Framework",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --watch --mode development --progress --colors --config webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webcomponents",
+    "angular",
+    "react",
+    "custom-elements",
+    "html5",
+    "javascript",
+    "data-binding"
+  ],
+  "author": "Avichay Eyal eavichay@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "slim-js": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.7",
+    "image-webpack-loader": "^4.2.0",
+    "node-sass": "^4.7.2",
+    "style-loader": "^0.20.3",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
